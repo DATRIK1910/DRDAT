@@ -1,0 +1,198 @@
+.slick-prev {
+    left: -10px !important;
+    z-index: 1000 !important;
+    height: 95px !important;
+    width: 44px !important;
+    background: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+
+    &:hover {
+        background: #eceaea !important;
+    }
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: FontAwesome !important;
+    color: red !important;
+}
+
+.slick-next {
+    right: -10px !important;
+    z-index: 1000 !important;
+    height: 95px !important;
+    width: 44px !important;
+    background: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+
+    &:hover {
+        background: #eceaea !important;
+    }
+
+}
+
+.slick-disabled {
+    display: none !important;
+}
+
+
+.section-share {
+    &.section-specialty {
+        background: #f5f5f5;
+    }
+
+    &.section-doctor {
+        background: #f5f5f5;
+
+    }
+
+    &.section-about {
+        height: 500px !important;
+        border-top: 1px solid #f5f5f5;
+        border-bottom: 1px solid #f5f5f5;
+    }
+
+
+    .specialty-body {
+        .section-customize {
+            .bg-image {
+                width: 270px;
+                height: 174px;
+
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-color: #eee;
+
+                &.section-specialty {
+                    background-image: url('../../assets/specialty/co-xuong-khop.png');
+                }
+
+                &.section-medical-facility {
+                    background-image: url('../../assets/medical-factility/bvchoray.jpeg');
+                }
+
+                &.section-doctor {
+                    // background: url('../../assets/outstandingdoctor/bstung.jpg');
+                    height: 180px;
+                    width: 220px;
+                    border-radius: 50%;
+                }
+
+                &.section-handbook {
+                    background-image: url('../../assets/handbook/kham-mat-o-dau-tot-tphcm.png');
+                    height: 118px;
+                    width: 224px;
+                }
+
+
+            }
+        }
+
+
+    }
+}
+
+.section-share {
+    height: 330px;
+
+
+
+
+    .specialty-container {
+        margin: 0 100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .specialty-header {
+        height: 60px;
+        margin-bottom: 30px;
+        padding-top: 30px;
+
+        .title-section {
+            font-size: 22px;
+            font-weight: 600;
+        }
+
+        .btn-section {
+            float: right;
+            padding: 10px 15px;
+            border: none;
+            outline: none;
+            display: block;
+            background: #ebebeb;
+            color: black;
+            cursor: pointer;
+            text-transform: uppercase;
+
+            &:hover {
+                color: #fff;
+                background: rgb(122, 132, 138);
+
+            }
+        }
+
+
+    }
+
+
+
+}
+
+.section-doctor {
+    .outer-bg {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .section-customize {
+        padding: 5px;
+
+        .customize-border {
+            border: 1px solid rgb(84, 164, 211);
+        }
+    }
+}
+
+.home-footer {
+    text-align: center;
+    padding-top: 8px;
+
+    a {
+        text-decoration: unset;
+    }
+
+
+}
+
+.section-about {
+    padding: 0 100px;
+
+    .section-about-header {
+        padding: 20px 10px;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .section-about-content {
+        display: flex;
+        gap: 15px;
+        width: 100%;
+
+        .content-left {
+            width: 60%;
+        }
+
+        .content-right {
+            width: 40%;
+
+            p {
+                text-align: justify;
+                font-style: italic;
+                padding: 15px;
+            }
+        }
+    }
+}
